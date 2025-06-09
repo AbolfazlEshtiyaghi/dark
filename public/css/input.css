@@ -11,7 +11,7 @@ body {
 @theme {
   --breakpoint-*: initial;
   --breakpoint-mobile: 340px;
-  --breakpoint-desktop: 1024px;
+  --breakpoint-desktop: 1400px;
   --font-Shabnam: face;
 }
 ::-webkit-scrollbar{

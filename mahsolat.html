@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>محصولات-وب سایت رسمی شرکت گلستان/title>
+    <link rel="shortcut icon" href="./public/images/logo-fr.png" type="image/x-icon">
     <link
     rel="stylesheet"
     href="./font-awesome-4.7.0/css/font-awesome.min.css"
@@ -17,15 +18,15 @@
 
  <!--#region mobile-header-->
  <div
- class="w-[100%] h-[180px] bg-stone-800 flex flex-col justify-center desktop:hidden sticky top-[1px] left-[0.5px] z-10">
+ class="w-[100%] h-[180px] bg-stone-800 flex flex-col justify-center desktop:hidden sticky top-[1px] left-[0.5px] z-10 duration-300 dark:bg-red-800">
  <header>
    <div
-     class="w-[100%] h-[100px] bg-stone-800 flex flex-col items-center">
+     class="w-[100%] h-[100px] bg-stone-800 flex flex-col items-center duration-300 dark:bg-red-800">
      <img src="./public/images/logo-fr.png" alt="" />
    </div>
-   <div class="w-[100%] h-[50px] bg-stone-800 relative">
+   <div class="w-[100%] h-[50px] bg-stone-800 relative duration-300 dark:bg-red-800">
      <div
-       class="menu_opener w-[30px] h-[30px] bg-stone-800 absolute top-[calc(20%)] right-[calc(5px)] rounded-lg flex flex-col justify-center items-center gap-[5px] mr-[20px] mt-[10px]">
+       class="menu_opener w-[30px] h-[30px] bg-stone-800 absolute top-[calc(20%)] right-[calc(5px)] rounded-lg flex flex-col justify-center items-center gap-[5px] mr-[20px] mt-[10px] duration-300 dark:bg-red-800">
        <div class="hamburger"></div>
        <div class="hamburger"></div>
        <div class="hamburger"></div>
@@ -52,22 +53,22 @@
 <!--#endregion mobile-header-->
 
 <!--#region desktop-header-->
-<div class="desktop:w-[100%] desktop:h-[100px] desktop:bg-stone-500 sticky top-[0px] left-[1px] z-10 dark:">
+<div class="desktop:w-[100%] desktop:h-[100px] desktop:bg-stone-500 sticky top-[0px] left-[1px] z-10 dark: duration-300 dark:bg-red-800">
  <header
    class="desktop mobile:hidden desktop:block desktop:flex desktop:flex-row desktop:justify-center desktop:items-center ">
    <div
-     class="desktop:w-[30%] desktop:h-[100px] desktop:bg-stone-800 relative duration-300 dark:bg-red-600">
+     class="desktop:w-[30%] desktop:h-[100px] desktop:bg-stone-800 relative duration-300 dark:bg-red-800">
      <img
        class="desktop:absolute right-[calc(270px)] top-[calc(43%)]"
        src="./public/images/logo-fr.png"
        alt="" />
    </div>
-   <div class="mld duration-300 dark:bg-red-600">
-     <div class="m-asli duration-300 dark:bg-red-600">
-       <div class="lk relative duration-300">
+   <div class="mld duration-300 dark:bg-red-800">
+     <div class="m-asli duration-300 dark:bg-red-800">
+       <div class="lk relative duration-300 dark:bg-red-800">
          <a href="./index.html" class="h1">صفحه اصلی</a>
        </div>
-       <div class="lk relative duration-300 hover">
+       <div class="lk relative duration-300 dark:bg-red-800 hover">
          <a class="h1">شرکت گلستان</a>
          <div class="w-[180px] h-[330px] bg-stone-800 absolute top-[30px] hidden mr-[75px]
          ">
@@ -109,7 +110,7 @@
     
        </div>
        </div>
-       <div class="lk relative duration-300 hover">
+       <div class="lk relative duration-300 dark:bg-red-800 hover">
          <a href="./mahsolat.html" class="h1">محصولات</a>
         <div class="w-[180px] h-[580px] bg-stone-800 absolute top-[30px] hidden mr-[120px]">
          <div class="w-[100%] h-[5%] duration-200 text-h">
@@ -175,7 +176,7 @@
         
         </div>
        </div>
-       <div class="lk relative duration-300 hover">
+       <div class="lk relative duration-300 dark:bg-red-800 hover">
          <a href="./weblog.html" class="h1">وبلاگ</a>
          <div class="w-[180px] h-[40px] bg-stone-800 absolute top-[30px] hidden mr-[75px]
          ">
@@ -187,13 +188,13 @@
     
        </div>
        </div>
-       <div class="lk relative duration-300">
+       <div class="lk relative duration-300 dark:bg-red-800">
          <div class="h1">قرعه کشی</div>
        </div>
-       <div class="lk relative duration-300">
+       <div class="lk relative duration-300 dark:bg-red-800">
          <div class="h1">استخدام</div>
        </div>
-       <div class="lk relative duration-300 hover">
+       <div class="lk relative duration-300 dark:bg-red-800 hover">
          <div class="h1">تماس با ما</div>
          <div class="w-[180px] h-[140px] bg-stone-800 absolute top-[30px] hidden mr-[75px]
          ">
@@ -215,7 +216,7 @@
     
        </div>
        </div>
-       <div class="lk1 relative duration-300 dark:bg-red-600">
+       <div class="lk1 relative duration-300 dark:bg-red-800">
          <div class="h1">EN</div>
        </div>
      </div>
@@ -1068,7 +1069,7 @@
 </div>
   <!--#endregion wrapper-->
   <script>
-    let menu = document.querySelector(".menu");
+    let menu = document.querySelector(".me");
     let menu_opener = document.querySelector(".menu_opener");
     menu_opener.addEventListener("click", function () {
       menu.classList.toggle("h-[56vh]");

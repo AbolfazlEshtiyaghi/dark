@@ -10,6 +10,7 @@
     --color-red-500: oklch(63.7% 0.237 25.331);
     --color-red-600: oklch(57.7% 0.245 27.325);
     --color-red-700: oklch(50.5% 0.213 27.518);
+    --color-red-800: oklch(44.4% 0.177 26.899);
     --color-orange-200: oklch(90.1% 0.076 70.697);
     --color-amber-100: oklch(96.2% 0.059 95.617);
     --color-amber-200: oklch(92.4% 0.12 95.746);
@@ -834,6 +835,9 @@
   .top-\[30px\] {
     top: 30px;
   }
+  .top-\[515px\] {
+    top: 515px;
+  }
   .top-\[610px\] {
     top: 610px;
   }
@@ -845,6 +849,9 @@
   }
   .top-\[calc\(43\%\)\] {
     top: calc(43%);
+  }
+  .right-\[15px\] {
+    right: 15px;
   }
   .right-\[calc\(5px\)\] {
     right: calc(5px);
@@ -1062,9 +1069,6 @@
   .ml-\[90px\] {
     margin-left: 90px;
   }
-  .ml-\[680px\] {
-    margin-left: 680px;
-  }
   .block {
     display: block;
   }
@@ -1190,9 +1194,6 @@
   }
   .h-\[200px\] {
     height: 200px;
-  }
-  .h-\[200vh\] {
-    height: 200vh;
   }
   .h-\[240px\] {
     height: 240px;
@@ -1483,6 +1484,9 @@
   }
   .p-7 {
     padding: calc(var(--spacing) * 7);
+  }
+  .pt-\[40px\] {
+    padding-top: 40px;
   }
   .text-center {
     text-align: center;
@@ -2042,594 +2046,599 @@
     }
   }
   .desktop\:absolute {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       position: absolute;
     }
   }
   .desktop\:right-95 {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       right: calc(var(--spacing) * 95);
     }
   }
   .desktop\:-bottom-386 {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       bottom: calc(var(--spacing) * -386);
     }
   }
   .desktop\:-bottom-633 {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       bottom: calc(var(--spacing) * -633);
     }
   }
   .desktop\:-bottom-905 {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       bottom: calc(var(--spacing) * -905);
     }
   }
   .desktop\:mx-auto {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-inline: auto;
     }
   }
   .desktop\:mt-0 {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-top: calc(var(--spacing) * 0);
     }
   }
   .desktop\:mt-2\.5 {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-top: calc(var(--spacing) * 2.5);
     }
   }
   .desktop\:mt-\[25px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-top: 25px;
     }
   }
   .desktop\:mt-\[40px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-top: 40px;
     }
   }
   .desktop\:mt-\[50px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-top: 50px;
     }
   }
   .desktop\:mt-\[55px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-top: 55px;
     }
   }
   .desktop\:mt-\[60px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-top: 60px;
     }
   }
   .desktop\:mr-0 {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-right: calc(var(--spacing) * 0);
     }
   }
   .desktop\:mr-5 {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-right: calc(var(--spacing) * 5);
     }
   }
   .desktop\:mr-\[5px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-right: 5px;
     }
   }
   .desktop\:mr-\[8px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-right: 8px;
     }
   }
   .desktop\:mr-\[10px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-right: 10px;
     }
   }
   .desktop\:mr-\[15px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-right: 15px;
     }
   }
   .desktop\:mr-\[20px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-right: 20px;
     }
   }
   .desktop\:mr-\[28px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-right: 28px;
     }
   }
   .desktop\:mr-\[30px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-right: 30px;
     }
   }
   .desktop\:mr-\[33px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-right: 33px;
     }
   }
   .desktop\:mr-\[35px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-right: 35px;
     }
   }
   .desktop\:mr-\[40px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-right: 40px;
     }
   }
   .desktop\:mr-\[180px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-right: 180px;
     }
   }
   .desktop\:mr-\[290px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-right: 290px;
     }
   }
   .desktop\:mr-\[303px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-right: 303px;
     }
   }
   .desktop\:mr-\[400px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-right: 400px;
     }
   }
   .desktop\:mb-0 {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-bottom: calc(var(--spacing) * 0);
     }
   }
   .desktop\:mb-2\.5 {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-bottom: calc(var(--spacing) * 2.5);
     }
   }
   .desktop\:ml-0 {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-left: calc(var(--spacing) * 0);
     }
   }
+  .desktop\:ml-\[680px\] {
+    @media (width >= 1400px) {
+      margin-left: 680px;
+    }
+  }
   .desktop\:block {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       display: block;
     }
   }
   .desktop\:flex {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       display: flex;
     }
   }
   .desktop\:hidden {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       display: none;
     }
   }
-  .desktop\:h-0 {
-    @media (width >= 1024px) {
-      height: calc(var(--spacing) * 0);
-    }
-  }
   .desktop\:h-\[0\.5px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 0.5px;
     }
   }
   .desktop\:h-\[27\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 27%;
     }
   }
   .desktop\:h-\[30px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 30px;
     }
   }
   .desktop\:h-\[40\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 40%;
     }
   }
   .desktop\:h-\[45\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 45%;
     }
   }
   .desktop\:h-\[45px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 45px;
     }
   }
   .desktop\:h-\[50\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 50%;
     }
   }
   .desktop\:h-\[55px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 55px;
     }
   }
   .desktop\:h-\[60px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 60px;
     }
   }
   .desktop\:h-\[70px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 70px;
     }
   }
   .desktop\:h-\[70vh\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 70vh;
     }
   }
   .desktop\:h-\[80\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 80%;
     }
   }
   .desktop\:h-\[80px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 80px;
     }
   }
   .desktop\:h-\[95px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 95px;
     }
   }
   .desktop\:h-\[100\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 100%;
     }
   }
   .desktop\:h-\[100px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 100px;
     }
   }
   .desktop\:h-\[110px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 110px;
     }
   }
   .desktop\:h-\[120px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 120px;
     }
   }
   .desktop\:h-\[130px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 130px;
     }
   }
   .desktop\:h-\[140px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 140px;
     }
   }
   .desktop\:h-\[150px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 150px;
     }
   }
   .desktop\:h-\[160px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 160px;
     }
   }
   .desktop\:h-\[170px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 170px;
     }
   }
   .desktop\:h-\[200px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 200px;
     }
   }
   .desktop\:h-\[220px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 220px;
     }
   }
   .desktop\:h-\[225px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 225px;
     }
   }
   .desktop\:h-\[250px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 250px;
     }
   }
   .desktop\:h-\[350px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 350px;
     }
   }
   .desktop\:h-\[500px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 500px;
     }
   }
   .desktop\:h-\[570px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 570px;
     }
   }
   .desktop\:h-\[600px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 600px;
     }
   }
   .desktop\:h-\[700px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 700px;
     }
   }
   .desktop\:h-\[1445vh\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 1445vh;
     }
   }
+  .desktop\:h-\[1480vh\] {
+    @media (width >= 1400px) {
+      height: 1480vh;
+    }
+  }
   .desktop\:h-fit {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: fit-content;
     }
   }
   .desktop\:w-\[20\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 20%;
     }
   }
   .desktop\:w-\[25\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 25%;
     }
   }
   .desktop\:w-\[28\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 28%;
     }
   }
   .desktop\:w-\[30\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 30%;
     }
   }
   .desktop\:w-\[40\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 40%;
     }
   }
   .desktop\:w-\[45\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 45%;
     }
   }
   .desktop\:w-\[50\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 50%;
     }
   }
   .desktop\:w-\[60\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 60%;
     }
   }
   .desktop\:w-\[70\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 70%;
     }
   }
   .desktop\:w-\[75\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 75%;
     }
   }
   .desktop\:w-\[80\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 80%;
     }
   }
   .desktop\:w-\[90\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 90%;
     }
   }
   .desktop\:w-\[95\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 95%;
     }
   }
   .desktop\:w-\[98\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 98%;
     }
   }
   .desktop\:w-\[99\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 99%;
     }
   }
   .desktop\:w-\[100\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 100%;
     }
   }
   .desktop\:w-\[105\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 105%;
     }
   }
   .desktop\:w-\[120\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 120%;
     }
   }
   .desktop\:w-\[130\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 130%;
     }
   }
   .desktop\:w-\[140\%\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 140%;
     }
   }
   .desktop\:w-\[140px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 140px;
     }
   }
   .desktop\:w-\[250px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 250px;
     }
   }
   .desktop\:w-\[300px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 300px;
     }
   }
   .desktop\:w-fit {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: fit-content;
     }
   }
   .desktop\:flex-col {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: column;
     }
   }
   .desktop\:flex-row {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: row;
     }
   }
   .desktop\:flex-wrap {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-wrap: wrap;
     }
   }
   .desktop\:items-center {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       align-items: center;
     }
   }
   .desktop\:items-start {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       align-items: flex-start;
     }
   }
   .desktop\:justify-center {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       justify-content: center;
     }
   }
   .desktop\:justify-end {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       justify-content: flex-end;
     }
   }
   .desktop\:gap-\[15px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       gap: 15px;
     }
   }
   .desktop\:gap-\[17px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       gap: 17px;
     }
   }
   .desktop\:gap-\[20px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       gap: 20px;
     }
   }
   .desktop\:rounded-\[3px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       border-radius: 3px;
     }
   }
   .desktop\:bg-amber-100 {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       background-color: var(--color-amber-100);
     }
   }
   .desktop\:bg-stone-300 {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       background-color: var(--color-stone-300);
     }
   }
   .desktop\:bg-stone-400 {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       background-color: var(--color-stone-400);
     }
   }
   .desktop\:bg-stone-500 {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       background-color: var(--color-stone-500);
     }
   }
   .desktop\:bg-stone-800 {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       background-color: var(--color-stone-800);
     }
   }
   .desktop\:object-cover {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       object-fit: cover;
     }
   }
   .desktop\:text-\[14px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       font-size: 14px;
     }
   }
   .desktop\:text-\[20px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       font-size: 20px;
     }
   }
   .desktop\:text-\[21px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       font-size: 21px;
     }
   }
   .desktop\:leading-\[29px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       --tw-leading: 29px;
       line-height: 29px;
     }
   }
   .desktop\:leading-\[38px\] {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       --tw-leading: 38px;
       line-height: 38px;
     }
   }
   .desktop\:text-red-500 {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       color: var(--color-red-500);
     }
   }
   .desktop\:opacity-50 {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       opacity: 50%;
     }
   }
@@ -2641,6 +2650,11 @@
   .dark\:bg-red-600 {
     &:where(.dark, .dark *) {
       background-color: var(--color-red-600);
+    }
+  }
+  .dark\:bg-red-800 {
+    &:where(.dark, .dark *) {
+      background-color: var(--color-red-800);
     }
   }
   .dark\:bg-stone-200 {
@@ -2720,63 +2734,63 @@ html, body {
     background-color: var(--color-amber-300);
   }
   .desktop {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       display: flex;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 100px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 100%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: row;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       background-color: var(--color-stone-800);
     }
   }
   .mld {
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       display: flex;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 100px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 70%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: row;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       align-items: center;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       justify-content: flex-start;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       background-color: var(--color-stone-800);
     }
   }
   .m-asli {
     margin-right: calc(var(--spacing) * 7);
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       display: flex;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 60%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 80%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: row;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       align-items: center;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       background-color: var(--color-stone-800);
     }
   }
@@ -2787,25 +2801,25 @@ html, body {
     border-color: var(--color-neutral-500);
     color: var(--color-stone-400);
     text-decoration-line: none;
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       display: flex;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 50%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 15%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: row;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       align-items: center;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       justify-content: center;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       background-color: var(--color-stone-800);
     }
     &:where(.dark, .dark *) {
@@ -2815,25 +2829,25 @@ html, body {
   .lk1 {
     margin-top: calc(var(--spacing) * 3.5);
     color: var(--color-stone-400);
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       display: flex;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 50%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 15%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: row;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       align-items: center;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       justify-content: center;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       background-color: var(--color-stone-800);
     }
   }
@@ -2852,13 +2866,13 @@ html, body {
     @media (width >= 340px) {
       flex-direction: column;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       display: flex;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 63vh;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: row;
     }
   }
@@ -2869,34 +2883,34 @@ html, body {
     @media (width >= 340px) {
       width: 100%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       display: flex;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 100%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 50%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: column;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       align-items: center;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       justify-content: center;
     }
   }
   .main-part {
     margin-top: calc(var(--spacing) * 9);
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-right: 240px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 80%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 60%;
     }
   }
@@ -2927,10 +2941,10 @@ html, body {
   }
   .div2 {
     height: 100%;
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       display: block;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 50%;
     }
   }
@@ -2950,16 +2964,16 @@ html, body {
       --tw-leading: calc(var(--spacing) * 9);
       line-height: calc(var(--spacing) * 9);
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-right: 400px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 240px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 50%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       --tw-leading: 38px;
       line-height: 38px;
     }
@@ -2979,16 +2993,16 @@ html, body {
       --tw-leading: calc(var(--spacing) * 9);
       line-height: calc(var(--spacing) * 9);
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-right: 400px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 150px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 50%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       --tw-leading: 38px;
       line-height: 38px;
     }
@@ -3009,10 +3023,10 @@ html, body {
     @media (width >= 340px) {
       margin-bottom: 10px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-right: 10px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-bottom: calc(var(--spacing) * 0);
     }
   }
@@ -3021,54 +3035,54 @@ html, body {
     @media (width >= 340px) {
       display: none;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       display: flex;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 68%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 20%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       justify-content: space-between;
     }
   }
   .text-four-shape {
     font-size: 16px;
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       display: flex;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 100%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 100%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: column;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       align-items: center;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       justify-content: center;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       border-bottom-style: var(--tw-border-style);
       border-bottom-width: 0.5px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       border-color: #7b7b7b;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       color: var(--color-stone-500);
     }
   }
   .for-space {
     height: 115px;
     width: 100%;
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 7px;
     }
   }
@@ -3088,13 +3102,13 @@ html, body {
     @media (width >= 340px) {
       width: 85%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-inline: calc(var(--spacing) * 0);
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 83%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 21%;
     }
     &:where(.dark, .dark *) {
@@ -3115,13 +3129,13 @@ html, body {
     @media (width >= 340px) {
       width: 82%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       margin-inline: calc(var(--spacing) * 0);
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 80%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 21%;
     }
   }
@@ -3146,10 +3160,10 @@ html, body {
   }
   .footer-part {
     background-color: var(--color-sky-400);
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 135px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 25%;
     }
   }
@@ -3184,10 +3198,10 @@ html, body {
     align-items: center;
     justify-content: center;
     background-color: #cde4b0;
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 400px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: row;
     }
   }
@@ -3199,10 +3213,10 @@ html, body {
     align-items: center;
     justify-content: center;
     background-color: #105153;
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 400px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: row;
     }
   }
@@ -3214,10 +3228,10 @@ html, body {
     align-items: center;
     justify-content: center;
     background-color: #dadada;
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 400px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: row;
     }
   }
@@ -3229,10 +3243,10 @@ html, body {
     align-items: center;
     justify-content: center;
     background-color: var(--color-stone-100);
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 500px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: row;
     }
   }
@@ -3244,10 +3258,10 @@ html, body {
     align-items: center;
     justify-content: center;
     background-color: #cde4b0;
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 400px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: row;
     }
   }
@@ -3259,10 +3273,10 @@ html, body {
     align-items: center;
     justify-content: center;
     background-color: #105153;
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 400px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: row;
     }
   }
@@ -3274,10 +3288,10 @@ html, body {
     align-items: center;
     justify-content: center;
     background-color: var(--color-stone-50);
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 400px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: row;
     }
   }
@@ -3289,10 +3303,10 @@ html, body {
     align-items: center;
     justify-content: center;
     background-color: #105153;
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 380px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: row;
     }
   }
@@ -3304,10 +3318,10 @@ html, body {
     align-items: center;
     justify-content: center;
     background-color: #cde4b0;
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 380px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: row;
     }
   }
@@ -3319,10 +3333,10 @@ html, body {
     align-items: center;
     justify-content: center;
     background-color: #105153;
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 380px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: row;
     }
   }
@@ -3334,10 +3348,10 @@ html, body {
     align-items: center;
     justify-content: center;
     background-color: #dadada;
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 380px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: row;
     }
   }
@@ -3348,10 +3362,10 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 380px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: row;
     }
   }
@@ -3363,10 +3377,10 @@ html, body {
     align-items: center;
     justify-content: center;
     background-color: #cde4b0;
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 250px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: row;
     }
   }
@@ -3378,10 +3392,10 @@ html, body {
     align-items: center;
     justify-content: center;
     background-color: #105153;
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 370px;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       flex-direction: row;
     }
   }
@@ -3392,20 +3406,20 @@ html, body {
     object-fit: cover;
     --tw-shadow: 0px 1px 10px var(--tw-shadow-color, currentcolor);
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 85%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 28%;
     }
   }
   .ppp {
     height: 610px;
     width: 100%;
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       height: 85%;
     }
-    @media (width >= 1024px) {
+    @media (width >= 1400px) {
       width: 28%;
     }
   }
