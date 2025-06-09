@@ -14,15 +14,7 @@ body {
   --breakpoint-desktop: 1400px;
   --font-Shabnam: face;
 }
-::-webkit-scrollbar{
-  width: 10px;
-  background-color: rgb(174, 51, 51);
-  }
-  ::-webkit-scrollbar-thumb{
-      width: 10px;
-      background-color: red;
-      border-radius: 10px;
-  }
+
 @font-face {
   font-family: Shabnam;
   src: url(../font/IRANSansLight.woff);
