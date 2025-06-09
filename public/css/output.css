@@ -2399,6 +2399,11 @@
       height: 1445vh;
     }
   }
+  .desktop\:h-\[1480vh\] {
+    @media (width >= 1400px) {
+      height: 1480vh;
+    }
+  }
   .desktop\:h-fit {
     @media (width >= 1400px) {
       height: fit-content;
