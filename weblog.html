@@ -17,8 +17,8 @@
 
 
   <span id="top"></span>
-        <!--#region mobile-header-->
-        <div
+      <!--#region mobile-header-->
+      <div
         class="w-[100%] h-[180px] bg-stone-800 flex flex-col justify-center desktop:hidden sticky top-[1px] left-[0.5px] z-10 duration-300 dark:bg-red-800">
         <header>
           <div
@@ -36,9 +36,70 @@
           <div class="me">
             <nav class="w-[100%] h-full flex flex-col justify-startr gap-y-5 p-7">
               <div class=""><a class="tk-he" href="./index.html">صفحه اصلی</a></div>
-              <div class=""><a class="tk-he" href="#">شرکت گلستان​</a></div>
-              <div class=""><a class="tk-he" href="./mahsolat.html">محصولات</a></div>
-              <div class=""><a class="tk-he" href="./weblog.html">وبلاگ</a></div>
+              <div class="navDiv duration-300"><a class="tk-he" href="#">شرکت گلستان​</a>
+              <div class="subMenu  duration-300">
+                <div class="subMenu-div opacity-0">
+                  <span class="">معرفی شرکت</span>
+                </div>
+                <div class="subMenu-div opacity-0">
+                  <span class="">تاریخچه گلستان</span>
+                </div>
+                <div class="subMenu-div opacity-0">
+                  <span class="">اخبار و اطلاعیه ها</span>
+                </div>
+                <div class="subMenu-div opacity-0">
+                  <span class="">مسئولیت های اجتماعی</span>
+                </div>
+                <div class="subMenu-div opacity-0">
+                  <span class="">سازمان فروش</span>
+                </div>
+                <div class="subMenu-div opacity-0">
+                  <span class="">سازمان توزیع</span>
+                </div>
+                <div class="subMenu-div opacity-0">
+                  <span class="">برندها</span>
+                </div>
+              </div>
+              </div>
+              <div class="navDiv duration-300"><a class="tk-he" href="./mahsolat.html">محصولات</a>
+                <div class="subMenu">
+                  <div class="subMenu-div opacity-0">
+                    <span class="">چای</span>
+                  </div>
+                  <div class="subMenu-div opacity-0">
+                    <span class="">ناتس</span>
+                  </div>
+                  <div class="subMenu-div opacity-0">
+                    <span class="">ادویه و چاشنی</span>
+                  </div>
+                  <div class="subMenu-div opacity-0">
+                    <span class="">برنج</span>
+                  </div>
+                  <div class="subMenu-div opacity-0">
+                    <span class="">زعفران و زرشک</span>
+                  </div>
+                  <div class="subMenu-div opacity-0">
+                    <span class="">دمنوش</span>
+                  </div>
+                  <div class="subMenu-div opacity-0">
+                    <span class="">حبوبات و غلات</span>
+                  </div>
+             
+               
+
+
+
+
+
+
+
+
+                </div>
+              
+              </div>
+              <div class="navDiv"><a class="tk-he" href="./weblog.html">وبلاگ</a>
+              
+              </div>
               <div class=""><a class="tk-he" href="">
                 قرعه کشی
               </a></div>
@@ -1780,6 +1841,26 @@ duration-300 dark:bg-stone-800">
  })
     
   
+ let navDivs = document.querySelectorAll(".navDiv");
+
+navDivs.forEach((navDiv) => {
+  let subMenu = navDiv.querySelector(".subMenu"); // پیدا کردن ساب‌منوی مرتبط با هر منو
+  let subMenuDivs = subMenu.querySelectorAll(".subMenu-div"); // پیدا کردن تمام ساب‌منو-دیوهای مرتبط
+  let menu = document.querySelector(".me");
+  let subMenu1=document.querySelector(".submenu1")
+  navDiv.addEventListener("click", () => {
+    if (subMenu) {
+      subMenu.classList.toggle("height"); // باز و بسته کردن ساب‌منو
+    }
+    
+menu.classList.toggle("h")
+ 
+    subMenuDivs.forEach((subMenuDiv) => {
+      subMenuDiv.classList.toggle("subMenu-div-h"); // تغییر استایل برای هر ساب‌منو-دیو
+      subMenuDiv.classList.toggle("opac")
+    });
+  });
+});
       </script>
 </body>
 </html>

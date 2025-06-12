@@ -3,6 +3,9 @@
   themes:light --default;
 }
 @custom-variant dark (&:where(.dark, .dark *));
+body{
+  overflow-x: hidden;
+}
 html,
 body {
   scroll-behavior: smooth;
@@ -90,7 +93,7 @@ body {
     @apply w-[100%] h-[115px] desktop:h-[7px];
   }
   .food-green {
-    @apply desktop:w-[21%] desktop:h-[83%] bg-stone-50 mt-[30px] mobile:w-[85%] mobile:h-[45%] mobile:mx-auto desktop:mx-0 shadow-[0px_0px_10px] duration-300 dark:bg-stone-700;
+    @apply desktop:w-[21%] desktop:h-[86%] bg-stone-50 mt-[30px] mobile:w-[85%] mobile:h-[45%] mobile:mx-auto desktop:mx-0 shadow-[0px_0px_10px] duration-300 dark:bg-stone-700;
   }
   .white-3-part {
     @apply desktop:w-[21%] desktop:h-[80%] bg-stone-50 mt-[30px]
@@ -166,6 +169,15 @@ body {
   .ppp {
     @apply desktop:w-[28%] w-[100%] desktop:h-[85%] h-[610px];
   }
+  .subMenu-div{
+    @apply w-[100%] h-[0px] bg-stone-800 duration-300 
+  }
+  .subMenu-div-h{
+    @apply  h-[50px] bg-stone-800 duration-300 flex flex-col justify-center text-stone-400 hover:text-stone-200
+  }
+.subMenu1{
+  @apply w-[100%] h-[0px] bg-amber-50
+}
 }
 
 .lk {
@@ -208,4 +220,20 @@ body {
 }
 .fontt {
   font-size: 15px;
+}
+.height{
+  height: 350px;
+  transition: 300ms;
+  
+}
+.height1{
+  height: 100px;
+  transition: 300ms;
+  
+}
+.h{
+  height: 100vh;
+}
+.opac{
+  opacity: 1;
 }
